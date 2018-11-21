@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">微阅</string>
+
+    <string name="load_end">没有更多数据</string>
+    <string name="load_failed">加载失败，请点我重试</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- 状态视图  -->
+    <string name="loading">加载中...</string>
+    <string name="text_empty">还没有数据呢！</string>
+    <string name="text_nonet">网络异常！</string>
+    <string name="text_retry">点击重试</string>
+
+    <!-- 新闻 -->
+    <string name="news_commentsize">%1$s评论</string>
+    <string name="detail_header_tv">下拉一下，看点儿不一样的</string>
+    <string name="news_toast">已为您推荐了%1$s条新资讯</string>
+    <string name="finish">完成</string>
+    <string name="edit">编辑</string>
+
+    <string-array name="news_channel">
+        <item>头条</item>
+        <item>娱乐</item>
+        <item>军事</item>
+        <item>体育</item>
+        <item>财经</item>
+        <item>科技</item>
+        <item>历史</item>
+        <item>台湾</item>
+        <item>汽车</item>
+        <item>社会</item>
+        <item>时尚</item>
+        <item>国学</item>
+        <item>文化</item>
+        <item>星座</item>
+        <item>读书</item>
+        <item>游戏</item>
+        <item>电影</item>
+        <item>国际</item>
+    </string-array>
+
+    <string-array name="news_channel_id">
+        <item>SYLB10,SYDT10</item> <!--头条-->
+        <item>YL53,FOCUSYL53</item> <!--娱乐-->
+        <item>JS83,FOCUSJS83</item> <!--军事-->
+        <item>TY43,FOCUSTY43,TYLIVE,TYTOPIC</item> <!--体育-->
+        <item>CJ33,FOCUSCJ33,HNCJ33</item> <!--财经-->
+        <item>KJ123,FOCUSKJ123</item> <!--科技-->
+        <item>LS153,FOCUSLS153</item> <!--历史-->
+        <item>TW73</item> <!--台湾-->
+        <item>QC45,FOCUSQC45</item> <!--汽车-->
+        <item>SH133,FOCUSSH133</item> <!--社会-->
+        <item>SS78,FOCUSSS78</item> <!--时尚-->
+        <item>GXPD,FOCUSGXPD</item> <!--国学-->
+        <item>WH25,FOCUSWH25</item> <!--文化-->
+        <item>XZ09,FOCUSXZ09</item> <!--星座-->
+        <item>DS57,FOCUSDS57</item> <!--读书-->
+        <item>YX11,FOCUSYX11</item> <!--游戏-->
+        <item>DYPD</item> <!--电影-->
+        <item>GJPD</item> <!--国际-->
+    </string-array>
+</resources>

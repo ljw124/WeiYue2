@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--通用的书籍介绍界面-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_common_bg"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/book_brief_iv_portrait"
+        android:layout_width="60dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/book_brief_iv_portrait"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/book_brief_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="宦官哈哈"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/book_brief_tv_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="xxxxxxxxxxxxxxxx"
+            android:textColor="#727272" />
+
+        <TextView
+            android:id="@+id/book_brief_tv_brief"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="xxxxxxxxxxxxxxxx"
+            android:textColor="#727272" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="3dp">
+            <TextView
+                android:id="@+id/book_brief_person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="xxxxxxxxxxxxxxxx"
+                android:textColor="#B2B2B2" />
+            <TextView
+                android:id="@+id/book_brief_saved"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="xxxxxxxxxxxxxxxx"
+                android:textColor="#B2B2B2" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#ffd9d9d9"
+        android:layout_marginTop="110dp"/>
+</RelativeLayout>
